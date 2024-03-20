@@ -1,0 +1,126 @@
+body{
+    background-image: url(dark\ cake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 30px;
+    font-size: 26px;
+}
+nav h1{
+    font-size: 40px;
+    color: red;
+    border-bottom: red;
+    border-radius: 40px;
+}
+}
+
+ul{
+    display: flex;
+    
+}
+li{
+    list-style: none;
+}
+/*home about color*/
+ul li a{
+    list-style: none;
+    margin-inline: 40px;
+    text-decoration: none;
+    color: white;
+    
+
+}
+/*login sing in button*/
+.btn{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 250px;
+    margin: 5px;
+    padding: 10px;
+    align-items: center;
+}
+.btn a{
+  text-decoration: none;
+  width: 100px;
+  height: 36px;
+  border: 2px solid red;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+.btn button{
+    width: 100px;
+    height: 36px;
+    border: 3px solid rgba(250,10,10,0.801);
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+   
+
+}
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 30px;
+    width: 100%;
+}
+.main-div .head{
+    font-size: 60px;
+    margin-left: 40px;
+    display: flex;
+
+}
+.head button{
+    width: 180px;
+    height: 45px;
+    background-color: rgba(250,10,10,0.801);
+    color: black;
+    font-size: 25px;
+    border-radius: 5px;
+
+}
+.head button{
+    background-color: black;
+    border: 3px solid rgba(250,10,10,0.801);
+    cursor:grab pointer;
+}
+.image img{
+    margin-right: 20px;
+    height: 350px;
+    transition:1.5s;
+    border-radius: 5px;
+
+}
+.image img:hover{
+    box-shadow: -10px 8px 20px rgb(133, 130, 130);
+}
+.button{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+.button button{
+    height: 40px;
+    width: 120px;
+    border-radius: 20%; 
+    font-size: 1rem;
+    background-color: rgb(246, 6, 6);
+    transition: 1.5s;
+}
+.button button:hover{
+ box-shadow: 4px 4px 10px rgb(234, 246, 246);
+}
+
+
+

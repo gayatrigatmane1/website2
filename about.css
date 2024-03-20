@@ -1,0 +1,14 @@
+@import url(https://fonts.google.com/specimen/Andika?noto.script=Hant);
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'lobster', cursive;
+}
+.Wrapper{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: white;
+}
+
